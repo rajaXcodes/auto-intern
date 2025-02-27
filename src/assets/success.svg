@@ -1,0 +1,25 @@
+ <svg
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 100 100"
+    className="w-24 h-24 mb-8 animate-bounce"
+  >
+    <circle cx="50" cy="50" r="50" fill="#FFD700" />
+    <path
+      d="M30,20 Q40,30 50,20 T70,20"
+      fill="none"
+      stroke="#FF4500"
+      strokeWidth="2"
+    />
+    <path
+      d="M20,50 Q30,40 20,30 T20,10"
+      fill="none"
+      stroke="#FF4500"
+      strokeWidth="2"
+    />
+    <path
+      d="M80,50 Q70,40 80,30 T80,10"
+      fill="none"
+      stroke="#FF4500"
+      strokeWidth="2"
+    />
+  </svg>
