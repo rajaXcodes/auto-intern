@@ -3,7 +3,7 @@ import Cards from "../utils/cards";
 import Navbar from "../utils/navbar";
 import ButtonHero from "../utils/buttons";
 import TypingEffect from "../utils/typing";
-
+import CardTile from "../utils/animate";
 const HeroPage = () => {
   const navigate = useNavigate();
 
@@ -41,16 +41,18 @@ const HeroPage = () => {
 
       {/* Steps Section */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-16">
-        <Cards mainheading="Step 1" para="Sign up on Internshala." />
-        <Cards
+        <CardTile mainheading="step1" para="Sign up on Internshala" />
+
+        <CardTile mainheading="Step 1" para="Sign up on Internshala." />
+        <CardTile
           mainheading="Step 2"
           para="Enter your Internshala credentials."
         />
-        <Cards
+        <CardTile
           mainheading="Step 3"
           para="Our AI processes your details and applies to jobs."
         />
-        <Cards
+        <CardTile
           mainheading="Step 4"
           para="Get notified once applications are submitted!"
         />
