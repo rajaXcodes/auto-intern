@@ -8,7 +8,7 @@ const boxVariant = {
   hidden: { opacity: 0, scale: 0 },
 };
 
-function CardTile({ mainheading, para }) {
+function CardTile({ Icon, para }) {
   const control = useAnimation();
   const [ref, inView] = useInView();
 
@@ -28,7 +28,7 @@ function CardTile({ mainheading, para }) {
       initial="hidden"
       animate={control}
     >
-      <Cards mainheading={mainheading} para={para} />
+      <Cards Icon={Icon} para={para} />
     </motion.div>
   );
 }

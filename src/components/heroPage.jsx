@@ -1,9 +1,11 @@
 import { useNavigate } from "react-router-dom";
-import Cards from "../utils/cards";
 import Navbar from "../utils/navbar";
 import ButtonHero from "../utils/buttons";
 import TypingEffect from "../utils/typing";
 import CardTile from "../utils/animate";
+import { IoIosLogIn } from "react-icons/io";
+import { GiProcessor } from "react-icons/gi";
+import { TbListDetails, TbNotification } from "react-icons/tb";
 const HeroPage = () => {
   const navigate = useNavigate();
 
@@ -41,19 +43,18 @@ const HeroPage = () => {
 
       {/* Steps Section */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-16">
-        
-        <CardTile mainheading="Step1" para="Sign up on Internshala" />
+        <CardTile Icon={IoIosLogIn} para="Sign up on Internshala" />
 
         <CardTile
-          mainheading="Step 2"
+          Icon={TbListDetails}
           para="Enter your Internshala credentials."
         />
         <CardTile
-          mainheading="Step 3"
+          Icon={GiProcessor}
           para="Our AI processes your details and applies to jobs."
         />
         <CardTile
-          mainheading="Step 4"
+          Icon={TbNotification}
           para="Get notified once applications are submitted!"
         />
       </div>
