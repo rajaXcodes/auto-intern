@@ -26,7 +26,7 @@ const Main = () => {
 
     setLoading(true); // Start loading
     try {
-      const response = await fetch("https://chiiling.onrender.com/apply", {
+      const response = await fetch("https://auto-intern-backend-production.up.railway.app/apply", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(formData),
