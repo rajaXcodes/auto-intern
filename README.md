@@ -106,6 +106,4 @@ Feel free to contribute by adding new features, improving design, or optimizing 
 
 For any queries or suggestions, drop me a message at [raja@gmail.com].  
 
----
 
-Would you like me to refine anything, like adding a roadmap or more visuals for GitHub? Let’s make it shine! ✨
